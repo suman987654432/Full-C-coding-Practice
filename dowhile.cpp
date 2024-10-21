@@ -1,0 +1,25 @@
+// 1. DO WHILE IS ALSO CALLED EXIST LOOP.
+// 2. DO WHILE WILL BE EXECUTED TILL THE CONDITION IS TRUE, OTHERWISE IT WILL BE TERMINATED.
+// (NOTE):-DO WHILE CONDOITION WILL EXECUTE THE STATEMENT OR CODE ATLIST ONE TIME WEATHER THE CONDITION IS TRUE OR FALSE.
+
+
+//SYNTAX
+// VARIABLE INITILIZATION;
+
+// DO{
+//     STATEMENT;
+//     INCREMENT/DECREMENT;
+// }
+// WHILE(CONDITION);
+
+//EXAMPLE:----
+#include<iostream>
+using namespace std;
+int main(){
+    int a=1;
+    do{
+        cout<<a<<"\t";
+        a++;
+    }
+    while(a<=10);
+}
